@@ -4,5 +4,5 @@
 
 # CMD 
 
-git clone https://github.com/LeonardoModz/SAMPDDOS && cd DDOS.SAMP-1.5 && python3 SAMP-DDOS1.5.py
+git clone https://github.com/LeonardoModz/SAMPDDOS && cd SAMPDDOS && python3 Leo.py
 
