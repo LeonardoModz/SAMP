@@ -33,7 +33,7 @@ os.system("clear")
 
 print("""
 \u001b[35m
-	  AUTHOR TOOLS : LEO MODZ
+	  LEO MENU DDOS SA-MP: BY LEO MODZ
 	╔═╗╔═╗╔╦╗╔═╗   ╔╗╔╦ ╦╔╦╗╔═╗╔═╗
 	╚═╗╠═╣║║║╠═╝───║║║║ ║ ║║║ ║╚═╗
 	╚═╝╩ ╩╩ ╩╩     ╝╚╝╚═╝═╩╝╚═╝╚═╝ V 1.5
