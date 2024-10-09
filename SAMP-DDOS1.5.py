@@ -22,7 +22,7 @@ while attemps < 100:
     username = input('Digite seu nome de usuário: ')
     password = input('Digite sua senha: ')
 
-    if username == 'LEO' and password == 'MODZ'
+    if username == 'LEO' and password == 'MODZ':
         print('LOGADO COM SUCESSO BEM-VINDO LEO MODZ!!')
         break
     else:
