@@ -8,8 +8,8 @@ import time
 
 ###### MESSAGE MIKA ON TOP! #####
 os.system("clear")
-os.system("xdg-open https://discord.gg/leomodzofc")
-print("\u001b[35m BEM VINDO AO MUNDO HACKING")
+os.system("xdg-open https://t.me/LEOMODZOTLFC")
+print("\u001b[35m BEM VINDO SA-MP DDOS BY LEO MODZ OFC")
 time.sleep(2)
 print("Loading.......")
 os.system("clear")
