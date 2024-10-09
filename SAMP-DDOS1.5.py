@@ -22,9 +22,9 @@ while attemps < 100:
     username = input('Digite seu nome de usuário: ')
     password = input('Digite sua senha: ')
 if username == 'NUDOS' and password == 'NUDOS':
-        print('LOGADO COM SUCESSO BEM-VINDO LEO MODZ!!')
+        print('You have successfully logged in Welcome to NUDOS!!')
         break
-    else:
+else:
         print('CREDENCIAIS INCORRETAS. VERIFIQUE SE VOCÊ TEM CAPS LOCK ATIVADO E TENTE NOVAMENTE.')
         attemps += 1
         continue
